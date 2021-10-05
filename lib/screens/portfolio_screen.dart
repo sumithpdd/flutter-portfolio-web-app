@@ -15,16 +15,24 @@ class Portfolio extends StatelessWidget {
         backgroundColor: Colors.black,
         title: Row(
           children: [
-            CircleAvatar(
-              radius: 25,
-              backgroundColor: Colors.white,
-              foregroundImage: NetworkImage(
-                  'https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Kurt&hairColor=Black&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light'),
+            Padding(
+              padding: const EdgeInsets.only(
+                top: 8.0,
+                bottom: 8.0,
+              ),
+              child: CircleAvatar(
+                radius: 25,
+                backgroundColor: Colors.white,
+                foregroundImage: NetworkImage(
+                  'https://picsum.photos/200',
+//  'https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Kurt&hairColor=Black&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light'
+                ),
+              ),
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Text(
-                'CoderP',
+                'Sumith Parambat Damodaran',
                 style: TextStyle(
                     color: Colors.white,
                     fontSize: 20,
