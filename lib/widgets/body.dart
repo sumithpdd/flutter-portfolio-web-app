@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio_web/util/util.dart';
+import 'package:portfolio_web/utils/util.dart';
 import 'package:portfolio_web/widgets/contact_button.dart';
 
 class Body extends StatelessWidget {
